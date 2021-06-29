@@ -29,3 +29,4 @@ with open("./柳州市/"+name+"初中.csv","w",encoding="utf-8",newline="") as f
             cvsRow.append(cell.get_text())
         writer.writerow(cvsRow)
     print(name.get_text())
+    

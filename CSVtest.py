@@ -7,3 +7,7 @@ dataFile = StringIO(data)
 csvReader = csv.reader(dataFile)
 for row in csvReader:
     print(row)
+
+
+
+    
